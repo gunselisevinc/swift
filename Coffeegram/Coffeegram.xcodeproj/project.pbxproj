@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED06C423250632CC0079DB7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06C422250632CC0079DB7F /* AppDelegate.swift */; };
+		ED06C425250632CC0079DB7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06C424250632CC0079DB7F /* SceneDelegate.swift */; };
+		ED06C427250632CC0079DB7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06C426250632CC0079DB7F /* ViewController.swift */; };
+		ED06C42A250632CC0079DB7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED06C428250632CC0079DB7F /* Main.storyboard */; };
+		ED06C42C250632DB0079DB7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED06C42B250632DB0079DB7F /* Assets.xcassets */; };
+		ED06C42F250632DB0079DB7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED06C42D250632DB0079DB7F /* LaunchScreen.storyboard */; };
+		ED06C43A250632DC0079DB7F /* CoffeegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06C439250632DC0079DB7F /* CoffeegramTests.swift */; };
+		ED06C445250632DC0079DB7F /* CoffeegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06C444250632DC0079DB7F /* CoffeegramUITests.swift */; };
+		ED06C454250635240079DB7F /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06C452250635240079DB7F /* ItemCollectionViewCell.swift */; };
+		ED06C455250635240079DB7F /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED06C453250635240079DB7F /* ItemCollectionViewCell.xib */; };
+		ED06C45725063F320079DB7F /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06C45625063F320079DB7F /* ImageViewerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED06C436250632DC0079DB7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED06C417250632CB0079DB7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED06C41E250632CC0079DB7F;
+			remoteInfo = Coffeegram;
+		};
+		ED06C441250632DC0079DB7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED06C417250632CB0079DB7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED06C41E250632CC0079DB7F;
+			remoteInfo = Coffeegram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED06C41F250632CC0079DB7F /* Coffeegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffeegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED06C422250632CC0079DB7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED06C424250632CC0079DB7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED06C426250632CC0079DB7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED06C429250632CC0079DB7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED06C42B250632DB0079DB7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED06C42E250632DB0079DB7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED06C430250632DB0079DB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED06C435250632DC0079DB7F /* CoffeegramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeegramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED06C439250632DC0079DB7F /* CoffeegramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeegramTests.swift; sourceTree = "<group>"; };
+		ED06C43B250632DC0079DB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED06C440250632DC0079DB7F /* CoffeegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED06C444250632DC0079DB7F /* CoffeegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeegramUITests.swift; sourceTree = "<group>"; };
+		ED06C446250632DC0079DB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED06C452250635240079DB7F /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED06C453250635240079DB7F /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED06C45625063F320079DB7F /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED06C41C250632CC0079DB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED06C432250632DC0079DB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED06C43D250632DC0079DB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED06C416250632CB0079DB7F = {
+			isa = PBXGroup;
+			children = (
+				ED06C421250632CC0079DB7F /* Coffeegram */,
+				ED06C438250632DC0079DB7F /* CoffeegramTests */,
+				ED06C443250632DC0079DB7F /* CoffeegramUITests */,
+				ED06C420250632CC0079DB7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED06C420250632CC0079DB7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED06C41F250632CC0079DB7F /* Coffeegram.app */,
+				ED06C435250632DC0079DB7F /* CoffeegramTests.xctest */,
+				ED06C440250632DC0079DB7F /* CoffeegramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED06C421250632CC0079DB7F /* Coffeegram */ = {
+			isa = PBXGroup;
+			children = (
+				ED06C422250632CC0079DB7F /* AppDelegate.swift */,
+				ED06C424250632CC0079DB7F /* SceneDelegate.swift */,
+				ED06C426250632CC0079DB7F /* ViewController.swift */,
+				ED06C428250632CC0079DB7F /* Main.storyboard */,
+				ED06C42B250632DB0079DB7F /* Assets.xcassets */,
+				ED06C42D250632DB0079DB7F /* LaunchScreen.storyboard */,
+				ED06C430250632DB0079DB7F /* Info.plist */,
+				ED06C452250635240079DB7F /* ItemCollectionViewCell.swift */,
+				ED06C453250635240079DB7F /* ItemCollectionViewCell.xib */,
+				ED06C45625063F320079DB7F /* ImageViewerViewController.swift */,
+			);
+			path = Coffeegram;
+			sourceTree = "<group>";
+		};
+		ED06C438250632DC0079DB7F /* CoffeegramTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED06C439250632DC0079DB7F /* CoffeegramTests.swift */,
+				ED06C43B250632DC0079DB7F /* Info.plist */,
+			);
+			path = CoffeegramTests;
+			sourceTree = "<group>";
+		};
+		ED06C443250632DC0079DB7F /* CoffeegramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED06C444250632DC0079DB7F /* CoffeegramUITests.swift */,
+				ED06C446250632DC0079DB7F /* Info.plist */,
+			);
+			path = CoffeegramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED06C41E250632CC0079DB7F /* Coffeegram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED06C449250632DC0079DB7F /* Build configuration list for PBXNativeTarget "Coffeegram" */;
+			buildPhases = (
+				ED06C41B250632CC0079DB7F /* Sources */,
+				ED06C41C250632CC0079DB7F /* Frameworks */,
+				ED06C41D250632CC0079DB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coffeegram;
+			productName = Coffeegram;
+			productReference = ED06C41F250632CC0079DB7F /* Coffeegram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED06C434250632DC0079DB7F /* CoffeegramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED06C44C250632DC0079DB7F /* Build configuration list for PBXNativeTarget "CoffeegramTests" */;
+			buildPhases = (
+				ED06C431250632DC0079DB7F /* Sources */,
+				ED06C432250632DC0079DB7F /* Frameworks */,
+				ED06C433250632DC0079DB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED06C437250632DC0079DB7F /* PBXTargetDependency */,
+			);
+			name = CoffeegramTests;
+			productName = CoffeegramTests;
+			productReference = ED06C435250632DC0079DB7F /* CoffeegramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED06C43F250632DC0079DB7F /* CoffeegramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED06C44F250632DC0079DB7F /* Build configuration list for PBXNativeTarget "CoffeegramUITests" */;
+			buildPhases = (
+				ED06C43C250632DC0079DB7F /* Sources */,
+				ED06C43D250632DC0079DB7F /* Frameworks */,
+				ED06C43E250632DC0079DB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED06C442250632DC0079DB7F /* PBXTargetDependency */,
+			);
+			name = CoffeegramUITests;
+			productName = CoffeegramUITests;
+			productReference = ED06C440250632DC0079DB7F /* CoffeegramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED06C417250632CB0079DB7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "gunseli sevinc";
+				TargetAttributes = {
+					ED06C41E250632CC0079DB7F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					ED06C434250632DC0079DB7F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = ED06C41E250632CC0079DB7F;
+					};
+					ED06C43F250632DC0079DB7F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = ED06C41E250632CC0079DB7F;
+					};
+				};
+			};
+			buildConfigurationList = ED06C41A250632CB0079DB7F /* Build configuration list for PBXProject "Coffeegram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED06C416250632CB0079DB7F;
+			productRefGroup = ED06C420250632CC0079DB7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED06C41E250632CC0079DB7F /* Coffeegram */,
+				ED06C434250632DC0079DB7F /* CoffeegramTests */,
+				ED06C43F250632DC0079DB7F /* CoffeegramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED06C41D250632CC0079DB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED06C42F250632DB0079DB7F /* LaunchScreen.storyboard in Resources */,
+				ED06C455250635240079DB7F /* ItemCollectionViewCell.xib in Resources */,
+				ED06C42C250632DB0079DB7F /* Assets.xcassets in Resources */,
+				ED06C42A250632CC0079DB7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED06C433250632DC0079DB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED06C43E250632DC0079DB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED06C41B250632CC0079DB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED06C427250632CC0079DB7F /* ViewController.swift in Sources */,
+				ED06C454250635240079DB7F /* ItemCollectionViewCell.swift in Sources */,
+				ED06C423250632CC0079DB7F /* AppDelegate.swift in Sources */,
+				ED06C45725063F320079DB7F /* ImageViewerViewController.swift in Sources */,
+				ED06C425250632CC0079DB7F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED06C431250632DC0079DB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED06C43A250632DC0079DB7F /* CoffeegramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED06C43C250632DC0079DB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED06C445250632DC0079DB7F /* CoffeegramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED06C437250632DC0079DB7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED06C41E250632CC0079DB7F /* Coffeegram */;
+			targetProxy = ED06C436250632DC0079DB7F /* PBXContainerItemProxy */;
+		};
+		ED06C442250632DC0079DB7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED06C41E250632CC0079DB7F /* Coffeegram */;
+			targetProxy = ED06C441250632DC0079DB7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED06C428250632CC0079DB7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED06C429250632CC0079DB7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED06C42D250632DB0079DB7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED06C42E250632DB0079DB7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED06C447250632DC0079DB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED06C448250632DC0079DB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED06C44A250632DC0079DB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4494Y2KPBK;
+				INFOPLIST_FILE = Coffeegram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guns.Coffeegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED06C44B250632DC0079DB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4494Y2KPBK;
+				INFOPLIST_FILE = Coffeegram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guns.Coffeegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED06C44D250632DC0079DB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4494Y2KPBK;
+				INFOPLIST_FILE = CoffeegramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guns.CoffeegramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffeegram.app/Coffeegram";
+			};
+			name = Debug;
+		};
+		ED06C44E250632DC0079DB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4494Y2KPBK;
+				INFOPLIST_FILE = CoffeegramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guns.CoffeegramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffeegram.app/Coffeegram";
+			};
+			name = Release;
+		};
+		ED06C450250632DC0079DB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4494Y2KPBK;
+				INFOPLIST_FILE = CoffeegramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guns.CoffeegramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coffeegram;
+			};
+			name = Debug;
+		};
+		ED06C451250632DC0079DB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4494Y2KPBK;
+				INFOPLIST_FILE = CoffeegramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guns.CoffeegramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coffeegram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED06C41A250632CB0079DB7F /* Build configuration list for PBXProject "Coffeegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED06C447250632DC0079DB7F /* Debug */,
+				ED06C448250632DC0079DB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED06C449250632DC0079DB7F /* Build configuration list for PBXNativeTarget "Coffeegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED06C44A250632DC0079DB7F /* Debug */,
+				ED06C44B250632DC0079DB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED06C44C250632DC0079DB7F /* Build configuration list for PBXNativeTarget "CoffeegramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED06C44D250632DC0079DB7F /* Debug */,
+				ED06C44E250632DC0079DB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED06C44F250632DC0079DB7F /* Build configuration list for PBXNativeTarget "CoffeegramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED06C450250632DC0079DB7F /* Debug */,
+				ED06C451250632DC0079DB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED06C417250632CB0079DB7F /* Project object */;
+}
